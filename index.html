@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lord BEAN | Listen Everywhere</title>
+<meta name="description" content="Official links for Lord BEAN on Spotify, Apple Music, Amazon Music, and YouTube." />
+<style>
+  :root {
+    --bg: #0b0b0f;
+    --fg: #eaeaea;
+    --muted: #a8a8b3;
+    --card: #141419;
+    --ring: #2dd4bf;
+    --radius: 18px;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: radial-gradient(1200px 800px at 10% -10%, #141827 0%, transparent 60%) , 
+                radial-gradient(900px 600px at 110% 10%, #19162a 0%, transparent 55%) ,
+                var(--bg);
+    color: var(--fg);
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    min-height: 100%;
+  }
+  .wrap {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  header.hero {
+    position: relative;
+    padding: clamp(40px, 6vw, 80px) 18px 24px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .hero .bg {
+    position: absolute; inset: 0; opacity: 0.18; pointer-events: none;
+    background-position: center; background-size: cover; filter: saturate(110%) contrast(105%);
+    transform: scale(1.04);
+  }
+  .hero .overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.65));
+  }
+  .brand {
+    position: relative;
+    display: grid;
+    place-items: center;
+    gap: 18px;
+  }
+  .logo {
+    max-width: min(560px, 70vw);
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 8px 22px rgba(0,0,0,0.55));
+  }
+  .avatar {
+    width: 128px; height: 128px; border-radius: 50%;
+    object-fit: cover; border: 3px solid rgba(255,255,255,0.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+  h1 { margin: 8px 0 0; font-size: clamp(28px, 4.5vw, 44px); letter-spacing: 0.4px; }
+  p.tag { margin: 6px 0 0; color: var(--muted); font-size: clamp(14px, 2.5vw, 16px); }
+  main { padding: 28px 18px 60px; }
+  .card { background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border: 1px solid rgba(255,255,255,0.06); border-radius: var(--radius); padding: 20px; backdrop-filter: blur(6px); }
+  .links { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: 14px; }
+  a.link {
+    display: flex; align-items: center; gap: 12px; padding: 14px 16px;
+    background: var(--card); border-radius: 14px; text-decoration: none; color: var(--fg);
+    border: 1px solid rgba(255,255,255,0.08); transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease;
+  }
+  a.link:hover { transform: translateY(-2px); border-color: rgba(255,255,255,0.20); box-shadow: 0 8px 26px rgba(0,0,0,0.35); }
+  .pill { margin: 0 auto; margin-top: 10px; display: inline-block; padding: 6px 12px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.1); color: var(--muted); font-size: 12px; }
+  .icon { width: 22px; height: 22px; border-radius: 4px; display: grid; place-items: center; font-size: 14px; }
+  .sp { background: #1DB954; }
+  .am { background: #FA243C; }
+  .az { background: #00A8E1; }
+  .yt { background: #FF0033; }
+  footer { text-align:center; color: var(--muted); font-size: 12px; padding: 28px 16px 50px; }
+  .desc { margin: 10px auto 0; max-width: 780px; color: var(--muted); }
+
+  .fans { margin-top: 18px; display:flex; flex-wrap: wrap; gap:8px; align-items:center; }
+  .fans strong { margin-right: 6px; font-size: 14px; color: var(--muted); }
+  .pill-badge { 
+    display:inline-block; padding:6px 10px; border-radius:999px; 
+    background: rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.10);
+    font-size: 13px; color: var(--fg);
+  }
+  .pill-badge:hover { border-color: rgba(255,255,255,0.24); }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class='bg' style='background-image:url(/mnt/data/IMG_20230301_112256_848-2-1-2-1-1-1-1-1-1.jpg);'></div>
+    <div class="overlay"></div>
+    <div class="wrap brand">
+      <img src='/mnt/data/Lord Bean.png' alt='Lord BEAN logo' class='logo' />
+      <img src='/mnt/data/Screenshot_20241110_152939_Instagram.jpg' alt='Lord BEAN avatar' class='avatar' />
+      <p class="tag">Official links • Stream Lord BEAN everywhere</p>
+      
+      <div class="fans">
+        <strong>For fans of</strong>
+        <span class="pill-badge">BONES</span>
+        <span class="pill-badge">$uicideboy$</span>
+        <span class="pill-badge">CORPSE</span>
+        <span class="pill-badge">The Weeknd</span>
+      </div>
+
+
+      <span class="pill">Chillwave • Cinematic Bass • Spacey Synths</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2 style="margin:0 0 8px 2px; font-size:22px;">Listen Now</h2>
+      <div class="links">
+        <a class="link" href="https://open.spotify.com/artist/29Z2qN8lR7g0FVmZHCPH6J?si=K3xfIjA7TeWccdBY8E3zcw" target="_blank" rel="noopener">
+          <span class="icon sp">♫</span> <strong>Spotify</strong>
+        </a>
+        <a class="link" href="https://music.apple.com/us/artist/lord-bean/1559383537" target="_blank" rel="noopener">
+          <span class="icon am"></span> <strong>Apple Music</strong>
+        </a>
+        <a class="link" href="https://amazon.com/music/player/artists/B01CYVY8NC/lord-bean?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_qinI2ljpNz9b11JhaIiaZDTET" target="_blank" rel="noopener">
+          <span class="icon az">A</span> <strong>Amazon Music</strong>
+        </a>
+        <a class="link" href="https://youtube.com/@lordbean?si=9hrRJmN7uqIf75WC" target="_blank" rel="noopener">
+          <span class="icon yt">▶</span> <strong>YouTube Music</strong>
+        </a>
+      </div>
+      <div style="margin-top: 28px; text-align:center;">
+        <a href="https://instagram.com/lordbean" target="_blank" rel="noopener" 
+           style="display:inline-flex; align-items:center; gap:8px; color:var(--fg); text-decoration:none; font-size:15px;">
+           
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+<path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm8.75 2.25a.75.75 0 0 1 .75.75v1.25a.75.75 0 0 1-1.5 0V6.5a.75.75 0 0 1 .75-.75zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/>
+</svg>
+ <span>@lordbean</span>
+        </a>
+      </div>
+
+      <p class="desc">Lord BEAN crafts shadow-drenched tracks that fuse the grit of underground hip-hop with the atmospheric pull of cinematic synths. 
+Drawing from the haunting minimalism of BONES, the raw grit of $uicideboy$, the visceral intensity of CORPSE, and the moody allure of The Weeknd, 
+his sound is both hypnotic and hard-hitting. Every release feels like a late-night confession drifting through neon haze.</p>
+    </section>
+  </main>
+
+  <footer>
+    © Artist — Lord BEAN
+  </footer>
+</body>
+</html>
